@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             paint.setColor(Color.WHITE);
             canvas.drawPaint(paint);
             paint.setColor(Color.parseColor("#000000"));
-            canvas.drawCircle((canvas.getWidth()/2+y*1000) , canvas.getHeight()/2+x*1000 , radius, paint);
+            canvas.drawCircle((canvas.getWidth()/2+y*1000) , canvas.getHeight()/2+x*1500 , radius, paint);
 
         }
 
